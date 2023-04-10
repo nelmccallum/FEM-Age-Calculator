@@ -1,0 +1,47 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(0, 0%, 100%);
+    margin: 15% auto;
+    height: 450px;
+    width: 90%;
+    max-width: 800px;
+    min-width: 320px;
+    overflow: hidden;
+    border-radius: 30px;
+    border-bottom-right-radius: 100px;
+}
+
+#inputContainer{
+    padding: 10% 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+#outputContainer {
+    font-weight: 950;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.eachInput{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width: 1024px){
+    .container {
+        margin: 150px auto;
+    }
+}
